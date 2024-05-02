@@ -2,16 +2,11 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-  </PropertyGroup>
-
-  <ItemGroup>
-
-    <PackageReference Include="Dapper.Contrib" Version="2.0.35" />
-
-  </ItemGroup>
+	</PropertyGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Sparcpoint.Core\Sparcpoint.Core.csproj" />
+    <ProjectReference Include="..\Sparcpoint.SqlServer.Abstractions\Sparcpoint.SqlServer.Abstractions.csproj" />
   </ItemGroup>
 
 </Project>
